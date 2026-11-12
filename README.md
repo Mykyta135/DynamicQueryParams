@@ -1,3 +1,5 @@
+<img src=".github/cover.png" alt="DynamicQueryParams" width="100%">
+
 # DynamicQueryParams
 
 Three NestJS parameter decorators that turn query strings into typed, validated pagination, sorting and filtering objects. Bad input from the client returns `400`; a misconfigured decorator on the server side returns `500`, so the two kinds of mistakes don't get mixed up.
